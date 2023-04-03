@@ -1,0 +1,73 @@
+.category-body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#category-container {
+    background-color: white;
+    height: 80vh;
+    width: 70vw;
+    box-shadow: 2px 2px 4px grey;
+    padding: 2rem;
+}
+
+/* FORM SECTION START */
+
+.form-container {
+    width: 60vw;
+    display: grid;
+    justify-content: flex-start;
+}
+
+.form-container form {
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.form-container form select {
+    border: 2px solid grey;
+    margin: 0 2rem;
+    width: 7rem;
+    height: 55%;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.form-container form button {
+    border: none;
+    outline: none;
+    width: 7rem;
+    height: 55%;
+    border-radius: 2rem;
+    background-color: #d31145;
+    color: white;
+    transition: ease-in 150ms;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: black;
+}
+
+/* FORM SECTION END */
+
+/* TABLE SECTION START */
+
+.form-container table {
+    width: 65vw;
+    border: 2px solid red;
+    margin-top: 2rem;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+tbody {  
+    background-color: white;
+}
+
+/* TABLE SECTION END */
