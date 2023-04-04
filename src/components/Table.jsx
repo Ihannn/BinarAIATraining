@@ -1,7 +1,7 @@
-import '../../styles/Categories.css'
+import '../styles/Categories.css'
 
-function Table ({ categoryList, deleteData, setData, editData }) {
-    
+function Table ({ categoryList, deleteData, setData }) {
+
     return (
         <div className='form-container'>
             <table>

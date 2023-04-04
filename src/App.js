@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Categories from './components/Categories';
 
 function App() {
+
   return (
     <div>
      <Routes>
